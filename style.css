@@ -1,0 +1,109 @@
+/* Style for all elements*/
+* {
+  box-sizing: border-box;
+  max-height:100%;
+  max-width:100%;
+}
+/* Style for home button*/
+#home{
+  background-color: DodgerBlue;
+  border: none;
+  color: black;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  align-items: center;
+  font-size: 90%;
+  width:10%;
+}
+
+/* Darker background on mouse-over */
+#home:hover {
+  background-color: RoyalBlue;
+}
+/* Style for submit button*/
+#submit{
+  font-size:20px;
+  color: black;
+  background-color: #228B22;
+  width: 20%;
+  margin: 0;
+  padding: 0;
+}
+/* Style the body*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #25274D;
+}
+
+/* Style the header */
+header {
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: red;
+}
+/* Style the list*/
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+/* Style the button*/
+button {
+  width: 25%;
+  margin: 4px 6px;
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 50px 50px;
+  text-align: center;
+  font-size:130%;
+  cursor: pointer;
+  opacity: 0.4;
+}
+/* Change style on mouse-over */
+button:hover {
+  background-color:white; 
+  color:black;
+}
+/* Style the button*/
+table{
+  width: 50%;
+  color:#588c7e;
+  font-family: monospace;
+  font-size: 20px;
+  text-align: left;
+  text-decoration: none;
+}
+/* Change style for header cells*/
+th{
+  background-color: #3a5c53;
+  color: white;
+  font-size: 22px;
+}
+/* Style the footer */
+footer {
+  text-align: center;
+  color: #686868;
+  position: fixed; 
+  padding: 10px 10px 0px 10px; 
+  bottom: 0; 
+  width: 100%; 
+  /* Height of the footer*/  
+  height: 40px;
+}
+/* Style the a tag*/
+a{
+  text-decoration: none;
+  color: inherit;
+}
+/*Style for paragraphs*/
+p{
+  color:white;
+  align-items: left;
+}
+/* Style the h1 tag*/
+h1{
+  color: green;
+  align-items: center;
+}
