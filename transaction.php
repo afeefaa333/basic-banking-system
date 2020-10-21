@@ -5,14 +5,13 @@ if(isset($_POST['submit'])){
     $amount = $_POST['amount'];
     $database = "bank";
     $db = mysqli_connect('localhost','root','',$database);
-    echo "$from";
     $q1 = "UPDATE customer SET credit=credit-$amount WHERE name='$from'";
-    echo "$q1";
-    mysqli_query($db,$q1);
+    mysqli_query($connect,$q1);
     $q2 = "UPDATE customer SET credit=credit+$amount WHERE name='$to'";
-    mysqli_query($db,$q2);
+    mysqli_query($connect,$q2);
     header('Location:customers.php');
 }
 ?>
+
 
 -
