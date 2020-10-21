@@ -1,6 +1,6 @@
 
 ### Basic Banking System ###
-This project is developed as a part of ***Web Development and Designing*** internship, **GRIP At The Sparks Foundation**
+This project is developed by **Afeefa Abdullah Manjanoor** as a part of ***Web Development and Designing*** internship, **GRIP At The Sparks Foundation**
 
 ###### Task 1 ######
 
